@@ -1,0 +1,106 @@
+.productList {
+  flex: 4;
+  padding: 20px;
+}
+
+.productListUser {
+  display: flex;
+  align-items: center;
+}
+.productList__top {
+  width: 100%;
+  display: flex;
+  margin: 20px 0px 20px 33px;
+}
+
+.productList__top-product {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 170%;
+}
+.productList__top-stock {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 130%;
+  padding-left: 50px;
+}
+
+.productList__headerS {
+  margin-right: 35px;
+}
+.productList__top-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.productList__headerP {
+  margin-right: 35px;
+}
+
+.productList__top-action {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 90%;
+}
+
+.productList__instock {
+  width: 50%;
+}
+.productList__id {
+  width: 100%;
+}
+
+.productList__image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.productList__mPrice {
+  width: 50%;
+}
+
+.productList__input {
+  margin: 10px;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+.productListImg {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productList__edited {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  border: none;
+  background: none;
+}
+
+.productList__edit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productList__btn {
+  color: red;
+  cursor: pointer;
+}
